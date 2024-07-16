@@ -1,12 +1,16 @@
 
-import './App.css';
+
+import Body from './components/Body';
+import Login from './components/Login';
 
 
 function App() {
   return (
-    <div className="app">
-      <h1 className='text-4xl'>hliiii</h1>
-    </div>
+    <>
+     <Login />
+   <Body />
+    </>
+   
   );
 }
 
